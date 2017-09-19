@@ -3,9 +3,9 @@
 // clientID and clientSecret, and then you should be good to go.
 module.exports = {
     'googleAuth' : {
-        'clientID'      : '', // TODO: put your client ID, from Google Developer Console
-        'clientSecret'  : '', // TODO: put your client secret, from Google Developer Console
-        'callbackURL'   : ''  // TODO: you need to use your AWS IP and port, e.g., 'http://100.2.66.4:8080/auth/google/callback'
+        'clientID'      : '501290128154-vao8rc2q967m9uhl66nb7e0ksvksssct.apps.googleusercontent.com', // TODO: put your client ID, from Google Developer Console
+        'clientSecret'  : 'FVLloEmfBSfSkj4w6orM3eGe', // TODO: put your client secret, from Google Developer Console
+        'callbackURL'   : 'http://ec2-18-221-120-177.us-east-2.compute.amazonaws.com:8080/auth/google/callback'  // TODO: you need to use your AWS IP and port, e.g., 'http://100.2.66.4:8080/auth/google/callback'
     },
     // When this next field is true, user account creation is enabled.  Note
     // that the whole web app doesn't have local state.  You can set this
@@ -13,5 +13,5 @@ module.exports = {
     // re-start the app... or you can set this true, start a second instance
     // of the app, create accounts, and then un-set it and stop the second
     // instance.
-    'allowNewUser' : false
+    'allowNewUser' : true
 }

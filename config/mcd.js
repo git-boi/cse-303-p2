@@ -2,5 +2,5 @@
 // information in the main code folders, but we *do* want it in the
 // repository for fast deployment.
 module.exports = {
-    'url' : '' // TODO: put the path to your memcached instance, such as 10.2.5.6:11211
+    'url' : '172.31.38.62:11211' // TODO: put the path to your memcached instance, such as 10.2.5.6:11211
 }
